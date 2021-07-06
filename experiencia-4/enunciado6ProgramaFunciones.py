@@ -5,18 +5,8 @@
 # Importar librerías necesarias
 import math
 
-# Funciones
-def areaCirculo():
-    print("Ingrese el radio de círculo en cm: ")
-    r = float(input())
-    a = math.pi * (r*r)
-    print("El área del círculo con radio",r, "es",a)
-
-def perCuadrado():
-    print("Ingrese la medida de un lado del cuadrado en cm: ")
-    r = float(input())
-    a = r*4
-    print("El perímetro del cuadrado es",a)
+# Importar Funciones
+from experiencia4Funciones import *
 
 # Opciones del menú
 opcion=0

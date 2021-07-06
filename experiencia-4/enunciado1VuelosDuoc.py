@@ -5,13 +5,8 @@
 # Importar librerías necesarias
 import numpy as np
 
-# Funciones
-def valorAsiento(a):
-    asientos = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30']
-    if a in asientos:
-        return 78900 
-    else:
-        return 240000
+# Importar Funciones
+from experiencia4Funciones import *
 
 # Definición de listas
 opcion=0
